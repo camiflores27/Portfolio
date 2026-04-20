@@ -1,0 +1,204 @@
+      /* INICIO */
+    /* tipo de portafolio e inicio */
+  
+  .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+      /* alineacion de inicio, sobremi */
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+        /* color y tipo de inicio, sobremi */
+
+  .nav-links a {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 600;
+  }
+  
+  .nav-links a:hover {
+    color: #ac1414;
+  }
+
+          /* CONTACTO */
+        /* contacto alineacion */
+
+  .seccion {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+        /* tipo de contacto */
+
+  .seccion h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  
+        /* contenedores de contacto */
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+          /* contenedores de contacto */
+
+  input, textarea {
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+  
+          /* boton enviar ver proyectos */
+
+  button {
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #252525;
+  }
+
+  .apellido {
+    font-family: 'Playfair Display', serif;
+    color: #D43C2F;
+    font-size: 70px;
+  }
+           /* boton ver proyectos */
+  .btn-custom {
+    border: 2px solid black;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+             /* boton contactar */
+  .btn-outline-custom {
+    border: 2px solid black;
+    background: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  /* img desordenadas inicio */
+  .imagenes {
+    position: relative;
+    height: 400px;
+  }
+
+  .imagenes img {
+    position: absolute;
+    width: 180px;
+    box-shadow: 5px 5px 0px black;
+  }
+
+  .img1 { top: 0; left: 50px; transform: rotate(-5deg); }
+  .img2 { top: 20px; right: 0; transform: rotate(5deg); }
+  .img3 { bottom: 0; left: 0; transform: rotate(3deg); }
+  .img4 { bottom: 20px; right: 60px; transform: rotate(-3deg); }
+
+             /* apellido grande en rojo */
+
+  .flores-bg {
+    font-size: 200px;
+    font-weight: 700;
+    color: #D43C2F;
+    opacity: 0.2;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+           /* la barra de abajo de todo */
+
+  .footer {
+    background-color: #ecebeb;
+    padding: 60px 20px 30px;
+    font-size: 14px;
+    color: #111;
+  }
+  
+  .footer-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .footer-col {
+    flex: 1 1 200px;
+  }
+  
+  .footer h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-col ul li a {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  .footer-col ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .iconos-redes a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .iconos-redes img {
+    width: 22px;
+    height: 22px;
+    border-radius: 30%;
+    background-color: #fafafa;
+    padding: 6px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    color: #777;
+    font-size: 14px;
+  }
+  
